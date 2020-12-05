@@ -20,3 +20,9 @@ CREATE TABLE IN_Cases (
   new_deaths_per_100_000 INT,
   new_cases_per_100_000 INT
 );
+
+CREATE TABLE indiana_newcases (
+    date DATE PRIMARY KEY,
+	New_Cases INT,
+	Seven_Day_Moving_Avg INT	
+);
