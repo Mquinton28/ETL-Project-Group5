@@ -11,8 +11,8 @@ Johns Hopkins COVID-19 Case Tracker https://data.world/associatedpress/johns-hop
 ## Steps:
 
 ### Extract:
-* load CSV files from websites in Jupiter notebooks
-    *Mobility report - “2020_US_Region_mobility_Report.csv”
+* Mobility report - “2020_US_Region_mobility_Report.csv”
+    * load into Jupyter notebook
 
 ### Transform:
 * Mobility report:
@@ -24,5 +24,5 @@ Johns Hopkins COVID-19 Case Tracker https://data.world/associatedpress/johns-hop
     * group by date and find the mean of each mobility category
 
 ### Load:   
-* load transformed data frames into Postgresl database covid-indianan
+* load transformed data frames into Postgresql database covid-indiana
     * Mobility report - load data frame into table mobility_per_date
