@@ -4,9 +4,11 @@
 How does the number of COVID-19 cases relate to community mobility in Indiana?
 
 ## Datasets:
-Google Community Mobility Reports https://www.google.com/covid19/mobility
+Google Community Mobility Reports 
+https://www.google.com/covid19/mobility
 
-Johns Hopkins COVID-19 Case Tracker https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
+Johns Hopkins COVID-19 Case Tracker 
+https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
 
 ## Steps:
 
