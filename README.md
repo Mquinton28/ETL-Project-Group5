@@ -1,6 +1,6 @@
 # ETL-Project-Group5
 
-## Question to answer:
+## Question:
 How does the number of COVID-19 cases relate to community mobility in Indiana?
 
 ## Datasets:
