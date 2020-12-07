@@ -36,7 +36,7 @@ SELECT * FROM mobility_per_date;
 SELECT * FROM in_cases;
 
 SELECT in_cases.date, 
-	   in_cases.Population, 
+	   in_cases.population, 
 	   in_cases.total_cases, 
 	   in_cases.total_deaths, 
 	   in_cases.new_cases, 
@@ -49,4 +49,6 @@ SELECT in_cases.date,
 	   mobility_per_date.residential_percent_change_from_baseline
 FROM in_cases
 INNER JOIN mobility_per_date ON
-in_cases.date = mobility_per_date.date;
+in_cases.date = mobility_per_date.date
+-- GROUP BY in_cases.date
+ORDER BY in_cases.date DESC;
