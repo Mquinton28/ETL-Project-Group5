@@ -48,7 +48,7 @@ https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
 
 ### Load:   
 * load transformed data frames into Postgresql database:
-    * covid-indiana - load DataFrame into table "in_cases"
+    * Indiana Cases by Johns Hopkins - load DataFrame into table "in_cases"
     * Mobility report - load data frame into table "mobility_per_date"
 * In Postgres we made the date our primary key to simplify our joins.
 * We did a couple different joins to examine the data.
