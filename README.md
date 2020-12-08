@@ -28,7 +28,7 @@ https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
     * Loaded into Jupyter notebook
 
 ### Transform:
-* Mobility report:
+* Mobility report (See file titled "google_data"):
      * Rename columns without spacing so postgres database can read columns
     * Drop all unnecessary columns that make data harder to read
     * Filter down to just Indiana in the state column
@@ -37,7 +37,7 @@ https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
     * Reset the index to the date column
     * Used grouby function with the dates to get the averages for each column using the GroupBy `.mean()` function
     * Create a connection to the postgres database to export the new dataframe 
-* COVID Cases by Johns Hopkins:
+* COVID Cases by Johns Hopkins (See file titled "dataset_IN_johnshopkins"):
     * pull only the Indiana data from the dataset and create a new DataFrame
     * Rename columns for readability
     * Drop columns that were not needed
