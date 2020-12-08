@@ -4,7 +4,8 @@
 How does the number of COVID-19 cases affect community mobility to parks in Indiana?
 
 ## Analysis
-
+The datasets used for this analysis are mobility statistics from Google Maps, and John's Hopkins data of new COVID-19 cases per day. These datasets were then transformed to see how the rise of new cases of COVID per day affect parks in Indiana. The graphs help visualize the rise in new cases versus mobility to parks. The data shows that since the beginning of COVID-19 cases, visits to parks in Indiana have increased from the baseline. Keep in mind this data could be affected by weather, day of the week, and other factors.
+Here are our graphs: ![Mobility](Resources/mobility.png)
 
 ## Datasets:
 Google Community Mobility Reports 
