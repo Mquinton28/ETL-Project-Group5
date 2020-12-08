@@ -8,13 +8,13 @@ How does the number of COVID-19 cases affect community mobility to parks in Indi
 
 ## Datasets:
 Google Community Mobility Reports 
-[https://www.google.com/covid19/mobility](Google Mobility)
+[https://www.google.com/covid19/mobility] (Google Mobility)
 
 CDC - Indiana New Cases Report - "IN_COVID.csv"
-[https://covid.cdc.gov/covid-data-tracker/?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcases-updates%2Fcases-in-us.html#trends_dailytrendscases](CDC Covid Data)
+[https://covid.cdc.gov/covid-data-tracker/?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcases-updates%2Fcases-in-us.html#trends_dailytrendscases] (CDC Covid Data)
 
 Johns Hopkins COVID-19 Case Tracker 
-[https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker](Johns Hopkins COVID-19 Tracker)
+[https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker] (Johns Hopkins COVID-19 Tracker)
 
 ## Steps:
 
