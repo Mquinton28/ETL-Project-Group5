@@ -1,17 +1,20 @@
 # ETL-Project-Group5
 
 ## Question:
-How does the number of COVID-19 cases relate to community mobility in Indiana?
+How does the number of COVID-19 cases affect community mobility to parks in Indiana?
+
+## Analysis
+
 
 ## Datasets:
 Google Community Mobility Reports 
-https://www.google.com/covid19/mobility
+[https://www.google.com/covid19/mobility](Google Mobility)
 
 CDC - Indiana New Cases Report - "IN_COVID.csv"
-https://covid.cdc.gov/covid-data-tracker/?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcases-updates%2Fcases-in-us.html#trends_dailytrendscases
+[https://covid.cdc.gov/covid-data-tracker/?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcases-updates%2Fcases-in-us.html#trends_dailytrendscases](CDC Covid Data)
 
 Johns Hopkins COVID-19 Case Tracker 
-https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
+[https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker](Johns Hopkins COVID-19 Tracker)
 
 ## Steps:
 
@@ -54,6 +57,6 @@ https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
 * We did a couple different joins to examine the data.
     * See our file titled 'schema.sql' to view our queries. 
 * Postgresql was chosen because:
-    1. Data is transactional - by date, population, number of cases
-    2. Data is already structured in csv files
-    3. End user can easily combine data however they need
+    *  Data is transactional - by date, population, number of cases
+    *  Data is already structured in csv files
+    *  End user can easily combine data however they need
