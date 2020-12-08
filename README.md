@@ -51,7 +51,7 @@ https://data.world/associatedpress/johns-hopkins-coronavirus-case-tracker
 * We did a couple different joins to examine the data.
     * See our file titled 'schema.sql' to view our queries.
 
-- Postgresql was chosen because:
+### Postgresql was chosen because:
     1. Data is transactional - by date, population, number of cases
     2. Data is already structured in csv files
     3. End user can easily combine data however they need
