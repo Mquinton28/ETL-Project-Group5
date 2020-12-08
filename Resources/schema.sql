@@ -10,9 +10,9 @@ CREATE TABLE mobility_per_date (
 
 
 CREATE TABLE IN_Cases (
-  Date DATE PRIMARY KEY,
-  State VARCHAR,
-  Population INT,
+  date DATE PRIMARY KEY,
+  state VARCHAR,
+  population INT,
   total_cases INT,
   total_cases_per_100000 INT,
   total_deaths INT,
@@ -25,7 +25,7 @@ CREATE TABLE IN_Cases (
 
 CREATE TABLE indiana_newcases (
     date DATE PRIMARY KEY,
-	New_Cases INT,
+    New_Cases INT,
 	Seven_Day_Moving_Avg INT	
 );
 
